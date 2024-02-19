@@ -1,6 +1,6 @@
 Esercizio " Password generetor "
 ===
-esercizio JS: 
+esercizio JS: chiedi nome, cognome, colore preferito e stampa la password generata
 ## Svolgimento
 
 1. con un prompt chiedo il nome all'utente
