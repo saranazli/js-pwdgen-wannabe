@@ -1,12 +1,33 @@
 //1
 
-const username = prompt ('write your name');
+const userName = prompt ('write your name');
 
-const userlastname = prompt ('write your lst name');
+//2
 
-const userfavouritecolor = prompt (' write your favourite color');
+const userLastName = prompt ('write your last name');
 
-const securnumber = 24;
+//3
 
-console.log(username, userlastname, userfavouritecolor, securnumber);
+const userFavouriteColor = prompt (' write your favourite color');
 
+//4
+
+const securNumber = 24;
+
+//5
+
+console.log (userName, userLastName, userFavouriteColor, securNumber);
+
+//6
+const newPassword = userName + userLastName + userFavouriteColor + securNumber;
+
+console.log (newPassword);
+
+//7
+
+document.getElementById('pw_gen').innerHTML= `
+<p>
+  ciao ${userName}, come password puoi utilizzare: 
+  ${newPassword}
+</p>
+`;
